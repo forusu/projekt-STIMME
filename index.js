@@ -1,3 +1,5 @@
+let array = []
+
 function playAudio(a){
 
     var audioplayer = new Audio(`./Sounds/${a}.wav`);
@@ -5,11 +7,49 @@ function playAudio(a){
 
     }
 
+
+function one() { 
+    array.push('1'); 
+} 
+function two() { 
+    array.push('2'); 
+} 
+function three() { 
+    array.push('3'); 
+} 
+function four() { 
+    array.push('4'); 
+} 
+function five() { 
+    array.push('5'); 
+} 
+function six() { 
+    array.push('6'); 
+} 
+function seven() { 
+    array.push('7'); 
+} 
+function eight() { 
+    array.push('8'); 
+} 
+function nine() { 
+    array.push('9'); 
+} 
+function achtung() {
+    array.push('A');
+}
+function trennung() {
+    array.push('T');
+}
+function ende() {
+    array.push('E');
+}
+function clear() {
+    array = []
+}
     
 function numbers() {
-    
-        let array = ['A','A',182,187,'T',190,130,175,179,198,141,53,178,169,149,89,194,140,170,151,143,118,105,93,81,141,132,71,51,56,53,'E']
-    
+
         let numbers = array.join("").split('')
     
         for (let i = 0; i < numbers.length; i++) {
