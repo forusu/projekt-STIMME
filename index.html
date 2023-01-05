@@ -13,28 +13,58 @@
         body {
             background-color: #000;
             color: #fff;
-            margin-top: 40vh;
-            margin-bottom: 40vh;
+            margin-top: 20vh;
+            margin-bottom: 15vh;
             text-align: center;
             font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
         }
 
         button {
+            margin:2px;
+            width:3.5em;
+            height:3.5em;
             border: none;
-            background-color: #121212;
-            color: #fff;
+            background-color: white;
+            color: #121212;
             box-shadow: #121212;
-            padding: 10px 25px;
+            padding: 0px;
             border-radius: 4px;
-            text-align: center;
             text-decoration: none;
             font-weight: bold;
-            display: inline-block;
+            /* display: inline-block; */
             font-size: 16px;
+            opacity:100%
+        }
+
+        button:hover {
+            opacity:75%
+        }
+
+        #stimme {
+            text-align: center;
+            width: 30vw;
+            height:100px;
+            margin-bottom: 100px;
+            /* margin: 100px; */
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap
+        }
+
+        #text {
+            padding: 100px;
         }
 
         h1 {
             text-align:center
+        }
+
+        .reset {
+            background-color: #af3621;
+        }
+
+        .util {
+            background-color: rgb(53, 155, 53);
         }
 
         .red {
@@ -46,8 +76,38 @@
     <h1>Projekt <span class="red">STIMME</span></h1>
 
     <script src="index.js"></script>
-    <center><button onclick="numbers()">Transmit</button></center>
+    <center><div id="stimme">
+        <button class="reset" onclick="">RES</button>
+        <button class="util" onclick=""><u>STA</u><br>STP</button>
+        <button onclick="seven()">7</button>
+        <button onclick="eight()">8</button>
+        <button onclick="nine()">9</button>
+        <button onclick="achtung()">:</button>
+        <button onclick="">-></button>
+        <button onclick=""><-</button>
+        <button onclick="four()">4</button>
+        <button onclick="five()">5</button>
+        <button onclick="six()">6</button>
+        <button onclick="trennung()">/</button>
+        <button class="util" onclick="">MODE</button>
+        <button class="util" onclick="">INP</button>
+        <button onclick="one()"><u>1</u><br>YES</button>
+        <button onclick="two()"><u>2</u><br>.</button>
+        <button onclick="three()"><u>3</u><br>-</button>
+        <button onclick="ende()">+</button>
+        <button class="util" onclick="">OUT</button>
+        <button class="util" onclick="clear()">CLR</button>
+        <button onclick="one()"><u>0</u><br>NO</button>
+        <button onclick="">=</button>
+        <button onclick="">?</button>
+        <button onclick="">SPC</button>
+        <button class="util" onclick="numbers()">EX</button>
+    </div>
+    </center>
 
-    <center><p>Projekt STIMME is a digital recreation of the East German STIMME voice synthesiser used for voice transmissions on number stations.</p></center>
+    <div id="text">
+        <center><p>Projekt STIMME is a digital recreation of the East German STIMME voice synthesiser used for voice transmissions on number stations.</p></center>
+    </div>
+
 </body>
 </html>
