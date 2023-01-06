@@ -11,8 +11,9 @@ function playAudio(a){
 function keypad(n) { 
     array.push(n); 
 } 
-function clear() {
-    array = []
+function reset() {
+    array.splice(0, array.length)
+    numbers.splice(0, numbers.length)
 }
     
 function numbers() {
