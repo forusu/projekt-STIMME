@@ -6,7 +6,7 @@ Currently WIP.
 Keypad and the following buttons are operational, everything else is currently not.
 ```
 EX - execute
-RES - clear the memory
+RES, CLR - clear the memory
 : - Achtung
 / - Trennung
 + - Ende
