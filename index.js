@@ -17,7 +17,6 @@ function clear() {
     
 function numbers() {
     
-    console.log(array);
         let numbers = array.join("").split('')
     
         for (let i = 0; i < numbers.length; i++) {
