@@ -12,4 +12,12 @@ RES - clear the memory
 + - Ende
 ```
 
+```
+TODO:
+* Ability to record the transmission
+* Three Note Oddity (G04) idle pattern on the ? button
+* Better page layout and design
+* Digital screen replica of the original / ability to view the current input
+```
+
 Painstakingly crafted by isakkr and me
