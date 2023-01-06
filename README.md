@@ -1,4 +1,7 @@
 # projekt-STIMME
+
+![](https://cdn.discordapp.com/attachments/1012344815884709962/1060722325462466690/image.png)
+
 Digital recreation of the DDR-made digital speech generator STIMME (Device 32620) used for number station transmissions. Voicebank that is simulated is the German one.
 
 Currently WIP.
