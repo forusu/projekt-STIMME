@@ -1,5 +1,5 @@
 # projekt-STIMME
-Digital recreation of the GDR-made voice synthesiser STIMME used for number station transmissions.
+Digital recreation of the DDR-made digital speech generator STIMME (Device 32620) used for number station transmissions. Voicebank that is simulated is the German one.
 
 Currently WIP.
 
@@ -20,6 +20,8 @@ TODO:
 * Digital screen replica of the original / ability to view the current input
 * Fix all sound samples
 * Add a radio filter for a more authentic experience of listening to this on the shortwave
+* Potential swapping of the voicebanks
+* Potential ability of switching between transmission modes ( Speech / Morse / Standard )
 ```
 
 Painstakingly crafted by isakkr and me
