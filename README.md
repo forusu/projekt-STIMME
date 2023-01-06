@@ -18,6 +18,8 @@ TODO:
 * Three Note Oddity (G04) idle pattern on the ? button
 * Better page layout and design
 * Digital screen replica of the original / ability to view the current input
+* Fix all sound samples
+* Add a radio filter for a more authentic experience of listening to this on the shortwave
 ```
 
 Painstakingly crafted by isakkr and me
