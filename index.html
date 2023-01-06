@@ -54,6 +54,11 @@
         #text {
             padding: 100px;
         }
+        
+        .break {
+            flex-basis: 100%;
+            height: 0;
+        }
 
         h1 {
             text-align:center
@@ -83,24 +88,28 @@
         <button onclick="keypad('8')">8</button>
         <button onclick="keypad('9')">9</button>
         <button onclick="keypad('A')">:</button>
+        <div class="break"></div>
         <button onclick="">-></button>
         <button onclick=""><-</button>
         <button onclick="keypad('4')">4</button>
         <button onclick="keypad('5')">5</button>
         <button onclick="keypad('6')">6</button>
         <button onclick="keypad('T')">/</button>
+        <div class="break"></div>
         <button class="util" onclick="">MODE</button>
         <button class="util" onclick="">INP</button>
         <button onclick="keypad('1')"><u>1</u><br>YES</button>
         <button onclick="keypad('2')"><u>2</u><br>.</button>
         <button onclick="keypad('3')"><u>3</u><br>-</button>
         <button onclick="keypad('E')">+</button>
+        <div class="break"></div>
         <button class="util" onclick="">OUT</button>
         <button class="util" onclick="clear()">CLR</button>
         <button onclick="keypad('0')"><u>0</u><br>NO</button>
         <button onclick="">=</button>
         <button onclick="">?</button>
         <button onclick="">SPC</button>
+        <div class="break"></div>
         <button class="util" onclick="numbers()">EX</button>
     </div>
     </center>
